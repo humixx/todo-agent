@@ -2,6 +2,14 @@
 
 A modern, AI-powered Todo application built with Next.js, React, and CopilotKit. This project helps you manage your daily tasks efficiently, with a clean UI and smart features.
 
+---
+
+## 🎥 Demo
+
+[Watch a walkthrough on Loom](https://www.loom.com/share/17b66b7517dd487093b8c6c87540ebd0)
+
+---
+
 ## Features
 
 - **Task Management:** Add, edit, complete, and delete todos.
