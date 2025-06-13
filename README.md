@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo Agent
+
+A modern, AI-powered Todo application built with Next.js, React, and CopilotKit. This project helps you manage your daily tasks efficiently, with a clean UI and smart features.
+
+## Features
+
+- **Task Management:** Add, edit, complete, and delete todos.
+- **AI Assistance:** Integrates CopilotKit for smart suggestions and productivity tips.
+- **Responsive UI:** Built with Radix UI and Tailwind CSS for a seamless experience on all devices.
+- **Persistent Storage:** Tasks are saved locally or via backend (customizable).
+- **Animations:** Smooth transitions using Framer Motion.
+
+## How It Works
+
+- The app uses **Next.js** for server-side rendering and routing.
+- **React** manages the UI and state.
+- **CopilotKit** provides AI-powered features and suggestions.
+- **Radix UI** and **Tailwind CSS** are used for accessible, customizable components and styling.
+- **Framer Motion** adds interactive animations.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [pnpm](https://pnpm.io/) (or use npm/yarn, but pnpm is preferred)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/humixx/todo-agent.git
+   cd todo-agent
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   pnpm install
+   ```
+
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and fill in any required values (if applicable).
+
+### Running Locally
+
+```sh
 pnpm dev
-# or
-bun dev
+```
+- Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Building for Production
+
+```sh
+pnpm build
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running Tests
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+pnpm test
+```
+*(If tests are set up in your project)*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+This project is ready to deploy on [Vercel](https://vercel.com/):
 
-To learn more about Next.js, take a look at the following resources:
+1. Push your code to GitHub/GitLab/Bitbucket.
+2. Import your repo into Vercel.
+3. Set any required environment variables.
+4. Click **Deploy**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [CopilotKit](https://www.copilotkit.ai/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+[MIT](LICENSE)
+
+---
+
+*Made with ❤️ by Humaira*
