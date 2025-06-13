@@ -12,7 +12,7 @@ export function TasksList() {
   return (
     <main className="animated-gradient-bg flex min-h-screen flex-col items-center justify-start p-8 md:p-24">
       <div className="flex flex-col gap-8 w-full max-w-5xl items-center">
-        <h1 className="text-2xl font-bold text-white">✍️ My To-do's</h1>
+        <h1 className="text-2xl font-bold text-white">✍️ My To-do&apos;s</h1>
         <AddTodo />
         <div className="w-full mt-6 flex flex-col gap-12">
           {taskGroups.map((group) => (
